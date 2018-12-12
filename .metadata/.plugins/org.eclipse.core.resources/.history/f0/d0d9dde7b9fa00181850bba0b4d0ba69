@@ -1,0 +1,12 @@
+package firstweek;
+
+public class PrintThreeNames 
+{
+	public static void main(String args[])
+    {
+
+        String x="i live in india";
+        String y[]=x.split(" ");
+        System.out.println(y[3]+" "+y[2]+" "+y[1]+" "+y[0]);
+
+}
