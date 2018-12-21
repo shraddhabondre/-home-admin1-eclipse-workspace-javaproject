@@ -232,19 +232,23 @@ public static void checkCollinear(int x1,int y1,int x2,int y2,int x3,int y3)
 }
 
               //to claculate area of triangle by determinanat method
-public static int calculateDeterminant(int x1,int y1,int x2,int y2,int x3,int y3)
+public static void calculateDeterminant(int x1,int y1,int x2,int y2,int x3,int y3)
 { 
-	int z[][];
-	int a=x1-x2;
-	int b=x2-x3;
-	int c=y1-y2;
-	int d=y2-y3;
-	int 
+	int a=x1*(y2-y3)+
+	          x2*(y3-y1)+
+	          x3*(y2-y3);
+	    if(a==0)
+	    {
+	        System.out.println("Tree point are Collinear");
+	    }
+	    else if(a!=0)
+	    {
+	        System.out.println("Tree point are Collinear");
+	    }
+	    }    
 	
+}
 
-	
-}
-}
 
 
 
