@@ -1,4 +1,4 @@
-package Utility;
+package com.bridgelabz.lib;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Locale;
@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import Utility.BLStdOut.StdOut;
+import com.bridgelabz.lib.BLStdOut.StdOut;
 public class BLStdIn {public final static class StdIn {
 
     /*** begin: section (1 of 2) of code duplicated from In to StdIn. */

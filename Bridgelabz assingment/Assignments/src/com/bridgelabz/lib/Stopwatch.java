@@ -1,6 +1,6 @@
-package Utility;
+package com.bridgelabz.lib;
 
-import Utility.BLStdOut.StdOut;
+import com.bridgelabz.lib.BLStdOut.StdOut;
 
 public class Stopwatch {
 

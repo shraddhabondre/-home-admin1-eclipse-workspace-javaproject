@@ -1,4 +1,4 @@
-package Utility;
+package com.bridgelabz.lib;
 
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
